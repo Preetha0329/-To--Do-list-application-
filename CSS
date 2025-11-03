@@ -1,0 +1,84 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif; 
+} 
+ 
+body { 
+  height: 100vh; 
+  background: linear-gradient(135deg, #ff7a00, #ffd000); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+} 
+ 
+.container { 
+  background: white; 
+padding: 25px 30px; 
+border-radius: 15px; 
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+width: 350px; 
+} 
+.todo-app h2 { 
+margin-bottom: 20px; 
+font-size: 22px; 
+color: #222; 
+display: flex; 
+align-items: center; 
+gap: 10px; 
+} 
+.row { 
+display: flex; 
+align-items: center; 
+background: #f0f0f0; 
+border-radius: 25px; 
+padding-left: 10px; 
+margin-bottom: 20px; 
+} 
+.row input { 
+flex: 1; 
+border: none; 
+outline: none; 
+background: transparent; 
+padding: 10px; 
+} 
+font-size: 15px; 
+.row button { 
+background: #ff5959; 
+border: none; 
+outline: none; 
+color: white; 
+padding: 10px 25px; 
+border-radius: 25px; 
+cursor: pointer; 
+font-size: 15px; 
+transition: 0.3s; 
+} 
+.row button:hover { 
+background: #ff3030; 
+} 
+ul { 
+list-style: none; 
+} 
+ul li { 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding: 10px 0; 
+font-size: 16px; 
+color: #333; 
+} 
+border-bottom: 1px solid #eee; 
+ul li span { 
+cursor: pointer; 
+} 
+.close { 
+font-size: 18px; 
+color: #777; 
+margin-left: 10px; 
+cursor: pointer; 
+} 
+.close:hover { 
+color: #ff5959; 
+}
